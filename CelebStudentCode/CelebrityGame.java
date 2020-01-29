@@ -27,6 +27,7 @@ public class CelebrityGame
     {
         ArrayList<Celebrity> celebGameList = new ArrayList<Celebrity>();
         gameWindow = new CelebrityFrame(this);
+        prepareGame();
     }
 
     /**
